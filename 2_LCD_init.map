@@ -1,0 +1,62 @@
+MPLINK 4.37, Linker
+Linker Map File - Created Tue Dec 13 13:02:54 2016
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x00018c
+                   .cinit    romdata   0x00018c    program   0x000002
+    .config_01FFF8_MAIN.O    romdata   0x01fff8    program   0x000001
+    .config_01FFFA_MAIN.O    romdata   0x01fffa    program   0x000001
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x00018d      
+                            0x01fff8    0x01fff8      
+                            0x01fffa    0x01fffa      
+            400 out of 131072 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    BUCLE   0x000130    program     static D:\MPLABProyects\Practicas_curso_basico\2_LCD_init\main.asm
+                 LCD_Init   0x000006    program     static D:\MPLABProyects\Practicas_curso_basico\2_LCD_init\main.asm
+                 Ret100us   0x000180    program     static D:\MPLABProyects\Practicas_curso_basico\2_LCD_init\main.asm
+                  Ret15ms   0x00013c    program     static D:\MPLABProyects\Practicas_curso_basico\2_LCD_init\main.asm
+                  Ret40ms   0x00014e    program     static D:\MPLABProyects\Practicas_curso_basico\2_LCD_init\main.asm
+                  Ret40us   0x000188    program     static D:\MPLABProyects\Practicas_curso_basico\2_LCD_init\main.asm
+                 Ret4_1ms   0x000172    program     static D:\MPLABProyects\Practicas_curso_basico\2_LCD_init\main.asm
+                   Ret5ms   0x000160    program     static D:\MPLABProyects\Practicas_curso_basico\2_LCD_init\main.asm
+             Retardo100us   0x00017c    program     static D:\MPLABProyects\Practicas_curso_basico\2_LCD_init\main.asm
+              Retardo15ms   0x000134    program     static D:\MPLABProyects\Practicas_curso_basico\2_LCD_init\main.asm
+              Retardo40ms   0x000146    program     static D:\MPLABProyects\Practicas_curso_basico\2_LCD_init\main.asm
+              Retardo40us   0x000184    program     static D:\MPLABProyects\Practicas_curso_basico\2_LCD_init\main.asm
+             Retardo4_1ms   0x00016a    program     static D:\MPLABProyects\Practicas_curso_basico\2_LCD_init\main.asm
+               Retardo5ms   0x000158    program     static D:\MPLABProyects\Practicas_curso_basico\2_LCD_init\main.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                 LCD_Init   0x000006    program     static D:\MPLABProyects\Practicas_curso_basico\2_LCD_init\main.asm
+                    BUCLE   0x000130    program     static D:\MPLABProyects\Practicas_curso_basico\2_LCD_init\main.asm
+              Retardo15ms   0x000134    program     static D:\MPLABProyects\Practicas_curso_basico\2_LCD_init\main.asm
+                  Ret15ms   0x00013c    program     static D:\MPLABProyects\Practicas_curso_basico\2_LCD_init\main.asm
+              Retardo40ms   0x000146    program     static D:\MPLABProyects\Practicas_curso_basico\2_LCD_init\main.asm
+                  Ret40ms   0x00014e    program     static D:\MPLABProyects\Practicas_curso_basico\2_LCD_init\main.asm
+               Retardo5ms   0x000158    program     static D:\MPLABProyects\Practicas_curso_basico\2_LCD_init\main.asm
+                   Ret5ms   0x000160    program     static D:\MPLABProyects\Practicas_curso_basico\2_LCD_init\main.asm
+             Retardo4_1ms   0x00016a    program     static D:\MPLABProyects\Practicas_curso_basico\2_LCD_init\main.asm
+                 Ret4_1ms   0x000172    program     static D:\MPLABProyects\Practicas_curso_basico\2_LCD_init\main.asm
+             Retardo100us   0x00017c    program     static D:\MPLABProyects\Practicas_curso_basico\2_LCD_init\main.asm
+                 Ret100us   0x000180    program     static D:\MPLABProyects\Practicas_curso_basico\2_LCD_init\main.asm
+              Retardo40us   0x000184    program     static D:\MPLABProyects\Practicas_curso_basico\2_LCD_init\main.asm
+                  Ret40us   0x000188    program     static D:\MPLABProyects\Practicas_curso_basico\2_LCD_init\main.asm
+
+
